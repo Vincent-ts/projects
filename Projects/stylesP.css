@@ -1,0 +1,39 @@
+html {
+    color: white;
+    background-color: black;
+}
+body {
+    margin: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+/* ID selector */
+#bignav {
+    margin: 0;
+    background-color: brown;
+    padding: 0;
+}
+#name {
+    float: left;
+    margin-bottom: 0;
+}
+#navbar {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* class */
+.link {
+    display: inline;
+    margin: 0;
+    padding: 20px;
+    float: right;
+}
+.clearfix {
+    overflow: auto;
+}
+.link:hover {
+    background-color: blue;
+}

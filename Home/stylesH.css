@@ -1,0 +1,99 @@
+/* Universal Selector */
+html {
+    color: white;
+    background-color: black;
+}
+body {
+    height: 100%;
+}
+
+/* Element Selector */
+p {
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+/* ID selector */
+#bignav {
+    margin: 0;
+    background-color: brown;
+    padding: 0;
+}
+#name {
+    float: left;
+    margin-bottom: 0;
+}
+#AboutpgLeftSide {
+    width: 50%;
+    padding: 30px;
+}
+/* Class selector */
+.title {
+    display: inline;
+        
+}
+.abouttxt {
+    font-size: 20px;
+    line-height: 1.5;
+    width: 75%;
+    margin: auto;
+}
+.gif {
+    margin: 10px;
+    position: absolute;
+        right: 0px;
+}
+.info {
+    text-align: center;
+}
+#navbar {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.link {
+    display: inline;
+    margin: 0;
+    padding: 20px;
+    float: right;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.clearfix {
+    overflow: auto;
+}
+.link:hover {
+    background-color: blue;
+    text-decoration: underline;
+}
+#HomeScrnPortrait {
+    width: 50%;
+}
+#Social-list {
+    width: 50%;
+    min-height: 100%;
+    z-index: 5;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: visible;
+}
+.Social-link {
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    min-height: 25%;
+    align-items: center;
+}
+.Social-link:hover {
+    background-color: rgba(237,20,61,0.38)
+}
+.wbh {
+    height: 80px;
+    width: 80px;
+}
+.bigbox {
+    display: flex;
+}

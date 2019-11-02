@@ -97,3 +97,7 @@ a {
 .bigbox {
     display: flex;
 }
+#aboutContent {
+    display: flex;
+    flex-direction: row;
+}
